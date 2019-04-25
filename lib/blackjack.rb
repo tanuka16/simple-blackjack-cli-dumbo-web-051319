@@ -45,6 +45,13 @@ def hit?(currentcard_total)
   get_user_input
   if currentcard_total == 's'
     puts "don't deal a new card"
+  elsif currentcard_total == 'h'
+    puts deal_card
+  elsif currentcard_total != 's' || currentcard_total != 'h'
+    puts "Please enter a valid command"
+  end
+
+
   return
 end
 
