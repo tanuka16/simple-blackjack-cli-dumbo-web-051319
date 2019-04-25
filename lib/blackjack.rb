@@ -48,7 +48,8 @@ def hit?(currentcard_total)
   elsif currentcard_total == 'h'
     puts deal_card
   elsif currentcard_total != 's' || currentcard_total != 'h'
-    puts "Please enter a valid command"
+    #puts "Please enter a valid command"
+    puts "Type 'h' to hit or 's' to stay"
   end
   prompt_user
   return currentcard_total
