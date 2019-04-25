@@ -43,6 +43,8 @@ def hit?(currentcard_total)
   # code hit? here
   prompt_user
   get_user_input
+  if currentcard_total == 's'
+    puts "don't deal a new card"
   return
 end
 
