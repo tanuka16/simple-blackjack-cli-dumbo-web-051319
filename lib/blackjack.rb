@@ -44,7 +44,7 @@ def hit?(currentcard_total)
   prompt_user
   get_user_input
   if currentcard_total == 's'
-    puts "don't deal a new card"
+    puts currentcard_total
   elsif currentcard_total == 'h'
     puts currentcard_total += deal_card
   elsif currentcard_total != 's' || currentcard_total != 'h'
