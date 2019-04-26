@@ -80,11 +80,12 @@ end
 
 def runner
   # code runner here
- welcome
-  x = initial_round
-  until x > 21
-    x = hit?(x)
-    display_card_total(x)
+
+  welcome
+  sum = initial_round
+  until sum > 21
+    sum = hit?(sum)
+  display_card_total(sum)
   #end_game
   end
   end_game
