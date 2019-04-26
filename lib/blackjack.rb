@@ -49,9 +49,7 @@ def hit?(currentcard_total)
     puts currentcard_total
   else
     invalid_command
-  #elsif input != 's' || input != 'h'
-    #puts "Please enter a valid command"
-    #puts "Type 'h' to hit or 's' to stay"
+
   end
   return currentcard_total
 
