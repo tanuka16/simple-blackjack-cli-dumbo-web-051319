@@ -46,7 +46,7 @@ def hit?(currentcard_total)
   if input == 'h'
     puts currentcard_total += deal_card
   elsif input == 's'
-    puts currentcard_total
+     currentcard_total
   else
     invalid_command
 
