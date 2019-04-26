@@ -83,8 +83,11 @@ def runner
 =begin  welcome
   x = initial_round
   until x > 21
-#  hit?
-  display_card_total
+    x = hit?(x)
+    display_card_total(x)
+  #end_game
+  end
   end_game
+
 =end
 end
