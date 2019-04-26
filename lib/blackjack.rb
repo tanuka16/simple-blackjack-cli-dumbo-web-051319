@@ -59,7 +59,7 @@ def hit?(currentcard_total)
   return currentcard_total
 =end
 
-prompt_user
+=begin prompt_user
   case get_user_input
   when "s"
     currentcard_total
@@ -68,6 +68,7 @@ prompt_user
   when others
     invalid_command
   end
+=end
 end
 
 
