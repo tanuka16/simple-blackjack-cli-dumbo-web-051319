@@ -88,6 +88,4 @@ def runner
   #end_game
   end
   end_game
-
-
 end
