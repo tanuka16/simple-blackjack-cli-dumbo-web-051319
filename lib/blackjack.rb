@@ -55,7 +55,7 @@ def hit?(currentcard_total)
     #puts "Please enter a valid command"
     #puts "Type 'h' to hit or 's' to stay"
   end
-  #prompt_user
+  prompt_user
   return currentcard_total
 end
 
