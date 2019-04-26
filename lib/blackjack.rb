@@ -54,7 +54,7 @@ def hit?(currentcard_total)
     #puts "Type 'h' to hit or 's' to stay"
   end
   #prompt_user
-  #return currentcard_total
+  return currentcard_total
 
 
 =begin prompt_user
