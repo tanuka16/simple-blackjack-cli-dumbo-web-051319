@@ -80,7 +80,7 @@ end
 
 def runner
   # code runner here
-=begin  welcome
+ welcome
   x = initial_round
   until x > 21
     x = hit?(x)
@@ -89,5 +89,5 @@ def runner
   end
   end_game
 
-=end
+
 end
