@@ -58,18 +58,18 @@ def hit?(currentcard_total)
   prompt_user
   return currentcard_total
 =end
+
 prompt_user
   case get_user_input
   when "s"
-    x
+    currentcard_total
   when "h"
-    x += deal_card
+    currentcard_total += deal_card
   when others
     invalid_command
   end
-
-
 end
+
 
 
 
